@@ -1,0 +1,1255 @@
+
+*** These modified files were found in JOE when it aborted on Sat Mar 22 01:11:33 2014
+*** JOE was aborted by UNIX signal 15
+
+*** File 'JOBSEND/test.o1880816'
+No Prologue was run  Sat Mar 22 01:05:13 CET 2014 
+/sw/sdev/Modules/gcc/gcc-4.8.2/lib64:/sw/sdev/Modules/gcc/gcc-4.8.2/lib:/sw/sdev/Modules/intelcomp/14.0.1/composer_xe_2013/lib/intel64:/sw/sdev/Modules/intelcomp/14.0.1/composer_xe_2013/tbb/lib/intel64:/sw/sdev/Modules/intelcomp/14.0.1/composer_xe_2013/mkl/lib/intel64:/sw/sdev/Modules/intelcomp/14.0.1/composer_xe_2013/ipp/lib/intel64:/sw/sgi/mpt/mpt-2.06/lib:/lib64:/usr/lib64/mpi/gcc/mvapich/lib64:/home/ntnu/serensoner/METHOD3/lib
+RESULT 1 nodes * 2 processes each, 0 levels
+The parameters are as follows: 
+Filename: cube.geo
+Filetype: geo
+Number of procs: 2
+Fineness: 0.5, maxh: 1
+Number of refinement levels: 1
+Output: Netgen mesh, Geomview
+ Calc Triangle Approximation
+ Calc Triangle Approximation
+ Start Findpoints
+ Start Findpoints
+ Find edges
+ Find edges
+ Start Findpoints
+ Start Findpoints
+ Find edges
+ Find edges
+ Start Findpoints
+ Start Findpoints
+ Find edges
+ Find edges
+ Surface 1 / 6
+ Surface 1 / 6
+ Surface 2 / 6
+ Surface 2 / 6
+ Surface 3 / 6
+ Surface 3 / 6
+ Surface 4 / 6
+ Surface 4 / 6
+ Surface 5 / 6
+ Surface 5 / 6
+ Surface 6 / 6
+ Surface 6 / 6
+ Start Findpoints
+ Start Findpoints
+ Find edges
+ Find edges
+ Start Findpoints
+ Start Findpoints
+ Find edges
+ Find edges
+ Start Findpoints
+ Start Findpoints
+ Find edges
+ Find edges
+ Surface 1 / 6
+ Surface 1 / 6
+ Surface 2 / 6
+ Surface 2 / 6
+ Surface 3 / 6
+ Surface 3 / 6
+ Surface 4 / 6
+ Surface 4 / 6
+ Surface 5 / 6
+ Surface 5 / 6
+ Surface 6 / 6
+ Surface 6 / 6
+Generating surface mesh took 0.04
+ Calc Triangle Approximation
+ Calc Triangle Approximation
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Start Findpoints
+ Find edges
+ Find edges
+ Surface 1 / 6
+ Start Findpoints
+ Find edges
+ Surface 1 / 6
+ Surface 2 / 6
+ Surface 2 / 6
+ Surface 3 / 6
+ Surface 3 / 6
+ Surface 4 / 6
+ Surface 4 / 6
+ Surface 5 / 6
+ Surface 5 / 6
+ Surface 6 / 6
+ Surface 6 / 6
+ ERROR: HOPTEST
+ Meshing subdomain 1 of 1
+ ERROR: HOPTEST
+ Meshing subdomain 1 of 1
+ Delaunay meshing
+ Delaunay meshing
+ start tetmeshing
+ start tetmeshing
+ Success !
+ 24 points, 51 elements
+ Remove Illegal Elements
+ Volume Optimization
+ Success !
+ 24 points, 51 elements
+ Remove Illegal Elements
+ Volume Optimization
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Find edges
+ Start Findpoints
+ Find edges
+ Surface 1 / 6
+ Surface 1 / 6
+ Surface 2 / 6
+ Surface 2 / 6
+ Surface 3 / 6
+ Surface 3 / 6
+ Surface 4 / 6
+ Surface 4 / 6
+ Surface 5 / 6
+ Surface 5 / 6
+ Surface 6 / 6
+ Surface 6 / 6
+ ERROR: HOPTEST
+ Meshing subdomain 1 of 1
+ ERROR: HOPTEST
+ Meshing subdomain 1 of 1
+ Delaunay meshing
+ Delaunay meshing
+ start tetmeshing
+ start tetmeshing
+ Success !
+ 24 points, 51 elements
+ Remove Illegal Elements
+ Volume Optimization
+ Success !
+ 24 points, 51 elements
+ Remove Illegal Elements
+ Volume Optimization
+Generating surface mesh took 0.02
+28
+XXXX for 5 RETURNED 2 3 1 28
+28
+XXXX for 5 RETURNED 2 3 1 28
+MY: (nn,ne) (21 28)
+MY: (nn,ne) (21 28)
+MY: metis objval = 6
+MY: metis objval = 6
+MY: starting update
+MY: starting update
+YYY got element faces of 1 : 27 31 72 26
+YYY got element points of 1 : 19 17 9 21
+YYY got element faces of 1 : 27 31 72 26
+YYY got element points of 1 : 19 17 9 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 21, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 27, svrtx[0][0-1-2] is 9 17 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 21, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 27, svrtx[0][0-1-2] is 9 17 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 31, svrtx[0][0-1-2] is 9 21 19
+TETRAOUT: fverts[0]: 17, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 72, svrtx[0][0-1-2] is 17 19 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 19, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 26, svrtx[0][0-1-2] is 9 19 17
+MY: starting update
+TETRAOUT: fverts[0]: 9, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 31, svrtx[0][0-1-2] is 9 21 19
+TETRAOUT: fverts[0]: 17, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 72, svrtx[0][0-1-2] is 17 19 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 19, tverts[0]: 19, tverts[1]: 17, tverts[2]: 9, 
+XXX fid 26, svrtx[0][0-1-2] is 9 19 17
+MY: starting update
+YYY got element faces of 2 : 29 73 32 28
+YYY got element points of 2 : 20 9 18 21
+YYY got element faces of 2 : 29 73 32 28
+YYY got element points of 2 : 20 9 18 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 21, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 29, svrtx[0][0-1-2] is 9 21 18
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 21, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 29, svrtx[0][0-1-2] is 9 21 18
+TETRAOUT: fverts[0]: 18, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 73, svrtx[0][0-1-2] is 18 21 20
+TETRAOUT: fverts[0]: 9, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 32, svrtx[0][0-1-2] is 9 20 21
+TETRAOUT: fverts[0]: 18, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 73, svrtx[0][0-1-2] is 18 21 20
+TETRAOUT: fverts[0]: 9, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 32, svrtx[0][0-1-2] is 9 20 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 20, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 28, svrtx[0][0-1-2] is 9 18 20
+MY: starting update
+YYY got element faces of 3 : 53 54 71 52
+YYY got element points of 3 : 18 17 12 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 17, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 20, tverts[0]: 20, tverts[1]: 9, tverts[2]: 18, 
+XXX fid 28, svrtx[0][0-1-2] is 9 18 20
+MY: starting update
+YYY got element faces of 3 : 53 54 71 52
+YYY got element points of 3 : 18 17 12 21
+XXX fid 53, svrtx[0][0-1-2] is 12 17 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 54, svrtx[0][0-1-2] is 12 21 18
+TETRAOUT: fverts[0]: 17, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 71, svrtx[0][0-1-2] is 17 18 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 17, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 53, svrtx[0][0-1-2] is 12 17 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 54, svrtx[0][0-1-2] is 12 21 18
+TETRAOUT: fverts[0]: 12, fverts[1]: 17, fverts[2]: 18, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 52, svrtx[0][0-1-2] is 12 18 17
+MY: starting update
+TETRAOUT: fverts[0]: 17, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 71, svrtx[0][0-1-2] is 17 18 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 17, fverts[2]: 18, tverts[0]: 18, tverts[1]: 17, tverts[2]: 12, 
+YYY got element faces of 4 : 12 11 10 26
+YYY got element points of 4 : 9 17 19 4
+TETRAOUT: fverts[0]: 4, fverts[1]: 17, fverts[2]: 19, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+XXX fid 12, svrtx[0][0-1-2] is 4 19 17
+TETRAOUT: fverts[0]: 4, fverts[1]: 9, fverts[2]: 19, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+XXX fid 52, svrtx[0][0-1-2] is 12 18 17
+MY: starting update
+YYY got element faces of 4 : 12 11 10 26
+YYY got element points of 4 : 9 17 19 4
+XXX fid 11, svrtx[0][0-1-2] is 4 9 19
+TETRAOUT: fverts[0]: 4, fverts[1]: 9, fverts[2]: 17, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+XXX fid 10, svrtx[0][0-1-2] is 4 17 9
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 19, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+TETRAOUT: fverts[0]: 4, fverts[1]: 17, fverts[2]: 19, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+XXX fid 12, svrtx[0][0-1-2] is 4 19 17
+TETRAOUT: fverts[0]: 4, fverts[1]: 9, fverts[2]: 19, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+XXX fid 11, svrtx[0][0-1-2] is 4 9 19
+MY: starting update
+YYY got element faces of 5 : 2 3 1 28
+YYY got element points of 5 : 18 9 20 1
+TETRAOUT: fverts[0]: 4, fverts[1]: 9, fverts[2]: 17, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+XXX fid 10, svrtx[0][0-1-2] is 4 17 9
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 19, tverts[0]: 9, tverts[1]: 17, tverts[2]: 19, 
+TETRAOUT: fverts[0]: 1, fverts[1]: 9, fverts[2]: 20, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 2, svrtx[0][0-1-2] is 1 20 9
+TETRAOUT: fverts[0]: 1, fverts[1]: 18, fverts[2]: 20, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 3, svrtx[0][0-1-2] is 1 18 20
+MY: starting update
+YYY got element faces of 5 : 2 3 1 28
+YYY got element points of 5 : 18 9 20 1
+TETRAOUT: fverts[0]: 1, fverts[1]: 9, fverts[2]: 18, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 1, svrtx[0][0-1-2] is 1 9 18
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 20, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+MY: starting update
+TETRAOUT: fverts[0]: 1, fverts[1]: 9, fverts[2]: 20, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 2, svrtx[0][0-1-2] is 1 20 9
+TETRAOUT: fverts[0]: 1, fverts[1]: 18, fverts[2]: 20, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 3, svrtx[0][0-1-2] is 1 18 20
+YYY got element faces of 6 : 44 39 35 33
+YYY got element points of 6 : 10 11 16 21
+TETRAOUT: fverts[0]: 11, fverts[1]: 16, fverts[2]: 21, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+XXX fid 44, svrtx[0][0-1-2] is 11 21 16
+TETRAOUT: fverts[0]: 1, fverts[1]: 9, fverts[2]: 18, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 1, svrtx[0][0-1-2] is 1 9 18
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 20, tverts[0]: 18, tverts[1]: 9, tverts[2]: 20, 
+MY: starting update
+TETRAOUT: fverts[0]: 10, fverts[1]: 16, fverts[2]: 21, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+XXX fid 39, svrtx[0][0-1-2] is 10 16 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 21, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+XXX fid 35, svrtx[0][0-1-2] is 10 21 11
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 16, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+YYY got element faces of 6 : 44 39 35 33
+YYY got element points of 6 : 10 11 16 21
+TETRAOUT: fverts[0]: 11, fverts[1]: 16, fverts[2]: 21, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+XXX fid 33, svrtx[0][0-1-2] is 10 11 16
+MY: starting update
+YYY got element faces of 7 : 73 66 67 68
+YYY got element points of 7 : 14 21 20 18
+XXX fid 44, svrtx[0][0-1-2] is 11 21 16
+TETRAOUT: fverts[0]: 10, fverts[1]: 16, fverts[2]: 21, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+XXX fid 39, svrtx[0][0-1-2] is 10 16 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 21, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+XXX fid 35, svrtx[0][0-1-2] is 10 21 11
+TETRAOUT: fverts[0]: 18, fverts[1]: 20, fverts[2]: 21, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 14, fverts[1]: 18, fverts[2]: 20, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+XXX fid 66, svrtx[0][0-1-2] is 14 20 18
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 16, tverts[0]: 10, tverts[1]: 11, tverts[2]: 16, 
+XXX fid 33, svrtx[0][0-1-2] is 10 11 16
+MY: starting update
+TETRAOUT: fverts[0]: 14, fverts[1]: 18, fverts[2]: 21, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+XXX fid 67, svrtx[0][0-1-2] is 14 18 21
+TETRAOUT: fverts[0]: 14, fverts[1]: 20, fverts[2]: 21, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+XXX fid 68, svrtx[0][0-1-2] is 14 21 20
+MY: starting update
+YYY got element faces of 7 : 73 66 67 68
+YYY got element points of 7 : 14 21 20 18
+TETRAOUT: fverts[0]: 18, fverts[1]: 20, fverts[2]: 21, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+YYY got element faces of 8 : 32 74 31 30
+YYY got element points of 8 : 19 9 20 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 20, fverts[2]: 21, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 14, fverts[1]: 18, fverts[2]: 20, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+XXX fid 66, svrtx[0][0-1-2] is 14 20 18
+TETRAOUT: fverts[0]: 14, fverts[1]: 18, fverts[2]: 21, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+XXX fid 67, svrtx[0][0-1-2] is 14 18 21
+TETRAOUT: fverts[0]: 19, fverts[1]: 20, fverts[2]: 21, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 74, svrtx[0][0-1-2] is 19 20 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 9, fverts[1]: 19, fverts[2]: 20, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 14, fverts[1]: 20, fverts[2]: 21, tverts[0]: 14, tverts[1]: 21, tverts[2]: 20, 
+XXX fid 68, svrtx[0][0-1-2] is 14 21 20
+MY: starting update
+XXX fid 30, svrtx[0][0-1-2] is 9 20 19
+MY: starting update
+YYY got element faces of 9 : 50 67 54 49
+YYY got element points of 9 : 18 12 14 21
+YYY got element faces of 8 : 32 74 31 30
+YYY got element points of 8 : 19 9 20 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 20, fverts[2]: 21, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 19, fverts[1]: 20, fverts[2]: 21, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 21, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+XXX fid 50, svrtx[0][0-1-2] is 12 21 14
+TETRAOUT: fverts[0]: 14, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 12, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+XXX fid 74, svrtx[0][0-1-2] is 19 20 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 9, fverts[1]: 19, fverts[2]: 20, tverts[0]: 19, tverts[1]: 9, tverts[2]: 20, 
+XXX fid 30, svrtx[0][0-1-2] is 9 20 19
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 18, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+XXX fid 49, svrtx[0][0-1-2] is 12 14 18
+MY: starting update
+MY: starting update
+YYY got element faces of 9 : 50 67 54 49
+YYY got element points of 9 : 18 12 14 21
+YYY got element faces of 10 : 74 61 60 59
+YYY got element points of 10 : 13 19 20 21
+TETRAOUT: fverts[0]: 19, fverts[1]: 20, fverts[2]: 21, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 21, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+XXX fid 50, svrtx[0][0-1-2] is 12 21 14
+TETRAOUT: fverts[0]: 14, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 13, fverts[1]: 20, fverts[2]: 21, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+XXX fid 61, svrtx[0][0-1-2] is 13 20 21
+TETRAOUT: fverts[0]: 13, fverts[1]: 19, fverts[2]: 21, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+XXX fid 60, svrtx[0][0-1-2] is 13 21 19
+TETRAOUT: fverts[0]: 13, fverts[1]: 19, fverts[2]: 20, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 12, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 18, tverts[0]: 18, tverts[1]: 12, tverts[2]: 14, 
+XXX fid 49, svrtx[0][0-1-2] is 12 14 18
+MY: starting update
+XXX fid 59, svrtx[0][0-1-2] is 13 19 20
+MY: starting update
+YYY got element faces of 11 : 40 38 53 37
+YYY got element points of 11 : 12 17 10 21
+YYY got element faces of 10 : 74 61 60 59
+YYY got element points of 10 : 13 19 20 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 17, fverts[2]: 21, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+XXX fid 40, svrtx[0][0-1-2] is 10 17 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 21, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+XXX fid 38, svrtx[0][0-1-2] is 10 21 12
+TETRAOUT: fverts[0]: 19, fverts[1]: 20, fverts[2]: 21, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+TETRAOUT: fverts[0]: 13, fverts[1]: 20, fverts[2]: 21, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+XXX fid 61, svrtx[0][0-1-2] is 13 20 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 17, fverts[2]: 21, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 17, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+XXX fid 37, svrtx[0][0-1-2] is 10 12 17
+MY: starting update
+TETRAOUT: fverts[0]: 13, fverts[1]: 19, fverts[2]: 21, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+XXX fid 60, svrtx[0][0-1-2] is 13 21 19
+TETRAOUT: fverts[0]: 13, fverts[1]: 19, fverts[2]: 20, tverts[0]: 13, tverts[1]: 19, tverts[2]: 20, 
+XXX fid 59, svrtx[0][0-1-2] is 13 19 20
+MY: starting update
+YYY got element faces of 12 : 27 29 25 71
+YYY got element points of 12 : 18 17 21 9
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+YYY got element faces of 11 : 40 38 53 37
+YYY got element points of 11 : 12 17 10 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 17, fverts[2]: 21, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+XXX fid 40, svrtx[0][0-1-2] is 10 17 21
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 18, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+XXX fid 25, svrtx[0][0-1-2] is 9 17 18
+TETRAOUT: fverts[0]: 17, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+MY: starting update
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 21, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+XXX fid 38, svrtx[0][0-1-2] is 10 21 12
+TETRAOUT: fverts[0]: 12, fverts[1]: 17, fverts[2]: 21, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 17, tverts[0]: 12, tverts[1]: 17, tverts[2]: 10, 
+XXX fid 37, svrtx[0][0-1-2] is 10 12 17
+MY: starting update
+YYY got element faces of 13 : 64 63 70 68
+YYY got element points of 13 : 20 21 14 15
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 21, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+XXX fid 64, svrtx[0][0-1-2] is 14 21 15
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 20, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+XXX fid 63, svrtx[0][0-1-2] is 14 15 20
+YYY got element faces of 12 : 27 29 25 71
+YYY got element points of 12 : 18 17 21 9
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 15, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+XXX fid 70, svrtx[0][0-1-2] is 15 21 20
+TETRAOUT: fverts[0]: 14, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+MY: starting update
+TETRAOUT: fverts[0]: 9, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 9, fverts[1]: 17, fverts[2]: 18, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+XXX fid 25, svrtx[0][0-1-2] is 9 17 18
+YYY got element faces of 14 : 57 70 56 61
+YYY got element points of 14 : 20 13 21 15
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 21, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+XXX fid 57, svrtx[0][0-1-2] is 13 15 21
+TETRAOUT: fverts[0]: 17, fverts[1]: 18, fverts[2]: 21, tverts[0]: 18, tverts[1]: 17, tverts[2]: 21, 
+MY: starting update
+TETRAOUT: fverts[0]: 15, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 20, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+XXX fid 56, svrtx[0][0-1-2] is 13 20 15
+YYY got element faces of 13 : 64 63 70 68
+YYY got element points of 13 : 20 21 14 15
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 21, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+XXX fid 64, svrtx[0][0-1-2] is 14 21 15
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 20, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 13, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+MY: starting update
+YYY got element faces of 15 : 6 4 56 5
+YYY got element points of 15 : 13 20 2 15
+XXX fid 63, svrtx[0][0-1-2] is 14 15 20
+TETRAOUT: fverts[0]: 15, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+XXX fid 70, svrtx[0][0-1-2] is 15 21 20
+TETRAOUT: fverts[0]: 14, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 21, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 2, fverts[1]: 15, fverts[2]: 20, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+XXX fid 6, svrtx[0][0-1-2] is 2 20 15
+TETRAOUT: fverts[0]: 2, fverts[1]: 13, fverts[2]: 15, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+XXX fid 4, svrtx[0][0-1-2] is 2 15 13
+MY: starting update
+YYY got element faces of 14 : 57 70 56 61
+YYY got element points of 14 : 20 13 21 15
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 20, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+TETRAOUT: fverts[0]: 2, fverts[1]: 13, fverts[2]: 20, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+XXX fid 5, svrtx[0][0-1-2] is 2 13 20
+MY: starting update
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 21, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+XXX fid 57, svrtx[0][0-1-2] is 13 15 21
+TETRAOUT: fverts[0]: 15, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+YYY got element faces of 16 : 8 9 7 49
+YYY got element points of 16 : 14 12 18 3
+TETRAOUT: fverts[0]: 3, fverts[1]: 12, fverts[2]: 18, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+XXX fid 8, svrtx[0][0-1-2] is 3 18 12
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 20, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+XXX fid 56, svrtx[0][0-1-2] is 13 20 15
+TETRAOUT: fverts[0]: 13, fverts[1]: 20, fverts[2]: 21, tverts[0]: 20, tverts[1]: 13, tverts[2]: 21, 
+MY: starting update
+TETRAOUT: fverts[0]: 3, fverts[1]: 14, fverts[2]: 18, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+XXX fid 9, svrtx[0][0-1-2] is 3 14 18
+TETRAOUT: fverts[0]: 3, fverts[1]: 12, fverts[2]: 14, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+XXX fid 7, svrtx[0][0-1-2] is 3 12 14
+YYY got element faces of 15 : 6 4 56 5
+YYY got element points of 15 : 13 20 2 15
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 18, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+MY: starting update
+TETRAOUT: fverts[0]: 2, fverts[1]: 15, fverts[2]: 20, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+XXX fid 6, svrtx[0][0-1-2] is 2 20 15
+TETRAOUT: fverts[0]: 2, fverts[1]: 13, fverts[2]: 15, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+XXX fid 4, svrtx[0][0-1-2] is 2 15 13
+YYY got element faces of 17 : 65 51 48 50
+YYY got element points of 17 : 12 14 21 16
+TETRAOUT: fverts[0]: 14, fverts[1]: 16, fverts[2]: 21, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+XXX fid 65, svrtx[0][0-1-2] is 14 16 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 16, fverts[2]: 21, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+XXX fid 51, svrtx[0][0-1-2] is 12 21 16
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 20, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+TETRAOUT: fverts[0]: 2, fverts[1]: 13, fverts[2]: 20, tverts[0]: 13, tverts[1]: 20, tverts[2]: 2, 
+XXX fid 5, svrtx[0][0-1-2] is 2 13 20
+MY: starting update
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 16, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+XXX fid 48, svrtx[0][0-1-2] is 12 16 14
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 21, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+MY: starting update
+YYY got element faces of 16 : 8 9 7 49
+YYY got element points of 16 : 14 12 18 3
+TETRAOUT: fverts[0]: 3, fverts[1]: 12, fverts[2]: 18, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+XXX fid 8, svrtx[0][0-1-2] is 3 18 12
+TETRAOUT: fverts[0]: 3, fverts[1]: 14, fverts[2]: 18, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+XXX fid 9, svrtx[0][0-1-2] is 3 14 18
+YYY got element faces of 18 : 14 15 62 13
+YYY got element points of 18 : 15 14 5 16
+TETRAOUT: fverts[0]: 5, fverts[1]: 14, fverts[2]: 16, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 14, svrtx[0][0-1-2] is 5 14 16
+TETRAOUT: fverts[0]: 5, fverts[1]: 15, fverts[2]: 16, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 15, svrtx[0][0-1-2] is 5 16 15
+TETRAOUT: fverts[0]: 3, fverts[1]: 12, fverts[2]: 14, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+XXX fid 7, svrtx[0][0-1-2] is 3 12 14
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 18, tverts[0]: 14, tverts[1]: 12, tverts[2]: 18, 
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 16, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 62, svrtx[0][0-1-2] is 14 15 16
+TETRAOUT: fverts[0]: 5, fverts[1]: 14, fverts[2]: 15, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 13, svrtx[0][0-1-2] is 5 15 14
+MY: starting update
+MY: starting update
+YYY got element faces of 17 : 65 51 48 50
+YYY got element points of 17 : 12 14 21 16
+YYY got element faces of 19 : 43 47 60 42
+YYY got element points of 19 : 19 13 11 21
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 21, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+XXX fid 43, svrtx[0][0-1-2] is 11 13 21
+TETRAOUT: fverts[0]: 14, fverts[1]: 16, fverts[2]: 21, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+XXX fid 65, svrtx[0][0-1-2] is 14 16 21
+TETRAOUT: fverts[0]: 12, fverts[1]: 16, fverts[2]: 21, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+XXX fid 51, svrtx[0][0-1-2] is 12 21 16
+TETRAOUT: fverts[0]: 11, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+XXX fid 47, svrtx[0][0-1-2] is 11 21 19
+TETRAOUT: fverts[0]: 13, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 19, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 16, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+XXX fid 48, svrtx[0][0-1-2] is 12 16 14
+TETRAOUT: fverts[0]: 12, fverts[1]: 14, fverts[2]: 21, tverts[0]: 12, tverts[1]: 14, tverts[2]: 21, 
+MY: starting update
+XXX fid 42, svrtx[0][0-1-2] is 11 19 13
+MY: starting update
+YYY got element faces of 20 : 65 62 69 64
+YYY got element points of 20 : 15 21 14 16
+YYY got element faces of 18 : 14 15 62 13
+YYY got element points of 18 : 15 14 5 16
+TETRAOUT: fverts[0]: 14, fverts[1]: 16, fverts[2]: 21, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 16, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 5, fverts[1]: 14, fverts[2]: 16, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 14, svrtx[0][0-1-2] is 5 14 16
+TETRAOUT: fverts[0]: 5, fverts[1]: 15, fverts[2]: 16, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 15, svrtx[0][0-1-2] is 5 16 15
+TETRAOUT: fverts[0]: 15, fverts[1]: 16, fverts[2]: 21, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+XXX fid 69, svrtx[0][0-1-2] is 15 16 21
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 21, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+MY: starting update
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 16, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 62, svrtx[0][0-1-2] is 14 15 16
+TETRAOUT: fverts[0]: 5, fverts[1]: 14, fverts[2]: 15, tverts[0]: 15, tverts[1]: 14, tverts[2]: 5, 
+XXX fid 13, svrtx[0][0-1-2] is 5 15 14
+MY: starting update
+YYY got element faces of 21 : 18 17 16 42
+YYY got element points of 21 : 11 13 19 6
+TETRAOUT: fverts[0]: 6, fverts[1]: 13, fverts[2]: 19, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+XXX fid 18, svrtx[0][0-1-2] is 6 19 13
+YYY got element faces of 19 : 43 47 60 42
+YYY got element points of 19 : 19 13 11 21
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 21, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 6, fverts[1]: 11, fverts[2]: 19, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+XXX fid 17, svrtx[0][0-1-2] is 6 11 19
+TETRAOUT: fverts[0]: 6, fverts[1]: 11, fverts[2]: 13, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+XXX fid 16, svrtx[0][0-1-2] is 6 13 11
+XXX fid 43, svrtx[0][0-1-2] is 11 13 21
+TETRAOUT: fverts[0]: 11, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+XXX fid 47, svrtx[0][0-1-2] is 11 21 19
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 19, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+MY: starting update
+YYY got element faces of 22 : 43 44 41 58
+TETRAOUT: fverts[0]: 13, fverts[1]: 19, fverts[2]: 21, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 19, tverts[0]: 19, tverts[1]: 13, tverts[2]: 11, 
+XXX fid 42, svrtx[0][0-1-2] is 11 19 13
+MY: starting update
+YYY got element points of 22 : 16 13 21 11
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 21, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+YYY got element faces of 20 : 65 62 69 64
+YYY got element points of 20 : 15 21 14 16
+TETRAOUT: fverts[0]: 14, fverts[1]: 16, fverts[2]: 21, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 16, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+XXX fid 41, svrtx[0][0-1-2] is 11 13 16
+TETRAOUT: fverts[0]: 13, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+XXX fid 58, svrtx[0][0-1-2] is 13 21 16
+MY: starting update
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 16, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+TETRAOUT: fverts[0]: 15, fverts[1]: 16, fverts[2]: 21, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+XXX fid 69, svrtx[0][0-1-2] is 15 16 21
+TETRAOUT: fverts[0]: 14, fverts[1]: 15, fverts[2]: 21, tverts[0]: 15, tverts[1]: 21, tverts[2]: 14, 
+MY: starting update
+YYY got element faces of 23 : 38 39 51 36
+YYY got element points of 23 : 16 12 10 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 21, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+YYY got element faces of 21 : 18 17 16 42
+YYY got element points of 21 : 11 13 19 6
+TETRAOUT: fverts[0]: 12, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 16, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+XXX fid 36, svrtx[0][0-1-2] is 10 16 12
+MY: starting update
+TETRAOUT: fverts[0]: 6, fverts[1]: 13, fverts[2]: 19, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+XXX fid 18, svrtx[0][0-1-2] is 6 19 13
+TETRAOUT: fverts[0]: 6, fverts[1]: 11, fverts[2]: 19, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+XXX fid 17, svrtx[0][0-1-2] is 6 11 19
+YYY got element faces of 24 : 55 69 57 58
+YYY got element points of 24 : 21 13 16 15
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 16, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+TETRAOUT: fverts[0]: 6, fverts[1]: 11, fverts[2]: 13, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+XXX fid 16, svrtx[0][0-1-2] is 6 13 11
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 19, tverts[0]: 11, tverts[1]: 13, tverts[2]: 19, 
+MY: starting update
+XXX fid 55, svrtx[0][0-1-2] is 13 15 16
+TETRAOUT: fverts[0]: 15, fverts[1]: 16, fverts[2]: 21, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 21, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+YYY got element faces of 22 : 43 44 41 58
+YYY got element points of 22 : 16 13 21 11
+TETRAOUT: fverts[0]: 13, fverts[1]: 16, fverts[2]: 21, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+MY: starting update
+YYY got element faces of 25 : 23 22 33 24
+YYY got element points of 25 : 11 16 8 10
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 21, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 13, fverts[2]: 16, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+TETRAOUT: fverts[0]: 8, fverts[1]: 10, fverts[2]: 16, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+XXX fid 23, svrtx[0][0-1-2] is 8 16 10
+TETRAOUT: fverts[0]: 8, fverts[1]: 10, fverts[2]: 11, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+XXX fid 22, svrtx[0][0-1-2] is 8 10 11
+XXX fid 41, svrtx[0][0-1-2] is 11 13 16
+TETRAOUT: fverts[0]: 13, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 13, tverts[2]: 21, 
+XXX fid 58, svrtx[0][0-1-2] is 13 21 16
+MY: starting update
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 16, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+TETRAOUT: fverts[0]: 8, fverts[1]: 11, fverts[2]: 16, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+XXX fid 24, svrtx[0][0-1-2] is 8 11 16
+MY: starting update
+YYY got element faces of 23 : 38 39 51 36
+YYY got element points of 23 : 16 12 10 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 21, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+YYY got element faces of 26 : 35 40 46 34
+YYY got element points of 26 : 17 11 10 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 21, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 12, fverts[1]: 16, fverts[2]: 21, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 16, tverts[0]: 16, tverts[1]: 12, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 17, fverts[2]: 21, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 17, fverts[2]: 21, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+XXX fid 46, svrtx[0][0-1-2] is 11 17 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 17, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+XXX fid 34, svrtx[0][0-1-2] is 10 17 11
+MY: starting update
+YYY got element faces of 27 : 21 19 20 37
+YYY got element points of 27 : 10 17 12 7
+TETRAOUT: fverts[0]: 7, fverts[1]: 12, fverts[2]: 17, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 21, svrtx[0][0-1-2] is 7 12 17
+TETRAOUT: fverts[0]: 7, fverts[1]: 10, fverts[2]: 12, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 19, svrtx[0][0-1-2] is 7 10 12
+TETRAOUT: fverts[0]: 7, fverts[1]: 10, fverts[2]: 17, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 20, svrtx[0][0-1-2] is 7 17 10
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 17, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+MY: starting update
+YYY got element faces of 28 : 47 46 72 45
+YYY got element points of 28 : 17 19 11 21
+TETRAOUT: fverts[0]: 11, fverts[1]: 19, fverts[2]: 21, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 17, fverts[2]: 21, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 17, fverts[1]: 19, fverts[2]: 21, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 17, fverts[2]: 19, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+XXX fid 45, svrtx[0][0-1-2] is 11 17 19
+XXX fid 36, svrtx[0][0-1-2] is 10 16 12
+MY: starting update
+YYY got element faces of 24 : 55 69 57 58
+YYY got element points of 24 : 21 13 16 15
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 16, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+XXX fid 55, svrtx[0][0-1-2] is 13 15 16
+TETRAOUT: fverts[0]: 15, fverts[1]: 16, fverts[2]: 21, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+TETRAOUT: fverts[0]: 13, fverts[1]: 15, fverts[2]: 21, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+TETRAOUT: fverts[0]: 13, fverts[1]: 16, fverts[2]: 21, tverts[0]: 21, tverts[1]: 13, tverts[2]: 16, 
+MY: starting update
+YYY got element faces of 25 : 23 22 33 24
+YYY got element points of 25 : 11 16 8 10
+TETRAOUT: fverts[0]: 8, fverts[1]: 10, fverts[2]: 16, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+XXX fid 23, svrtx[0][0-1-2] is 8 16 10
+TETRAOUT: fverts[0]: 8, fverts[1]: 10, fverts[2]: 11, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+XXX fid 22, svrtx[0][0-1-2] is 8 10 11
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 16, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+TETRAOUT: fverts[0]: 8, fverts[1]: 11, fverts[2]: 16, tverts[0]: 11, tverts[1]: 16, tverts[2]: 8, 
+XXX fid 24, svrtx[0][0-1-2] is 8 11 16
+MY: starting update
+YYY got element faces of 26 : 35 40 46 34
+YYY got element points of 26 : 17 11 10 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 21, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+TETRAOUT: fverts[0]: 10, fverts[1]: 17, fverts[2]: 21, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+GETTING BOUNDARY ID OF 4
+BOUNDARY ID OF 4 is 0
+BOUNDARY ID OF 4 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 5
+BOUNDARY ID OF 5 is 0
+BOUNDARY ID OF 5 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 6
+BOUNDARY ID OF 6 is 0
+BOUNDARY ID OF 6 is 0, SETTING GEO TO 0
+TETRAOUT: fverts[0]: 11, fverts[1]: 17, fverts[2]: 21, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+XXX fid 46, svrtx[0][0-1-2] is 11 17 21
+TETRAOUT: fverts[0]: 10, fverts[1]: 11, fverts[2]: 17, tverts[0]: 17, tverts[1]: 11, tverts[2]: 10, 
+XXX fid 34, svrtx[0][0-1-2] is 10 17 11
+MY: starting update
+GETTING BOUNDARY ID OF 10
+BOUNDARY ID OF 10 is 2
+BOUNDARY ID OF 10 is 2, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 11
+BOUNDARY ID OF 11 is 2
+BOUNDARY ID OF 11 is 2, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 12
+BOUNDARY ID OF 12 is 2
+BOUNDARY ID OF 12 is 2, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 16
+BOUNDARY ID OF 16 is 4
+BOUNDARY ID OF 16 is 4, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 17
+BOUNDARY ID OF 17 is 4
+BOUNDARY ID OF 17 is 4, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 18
+BOUNDARY ID OF 18 is 4
+YYY got element faces of 27 : 21 19 20 37
+YYY got element points of 27 : 10 17 12 7
+BOUNDARY ID OF 18 is 4, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 22
+BOUNDARY ID OF 22 is 5
+BOUNDARY ID OF 22 is 5, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 23
+BOUNDARY ID OF 23 is 5
+BOUNDARY ID OF 23 is 5, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 24
+BOUNDARY ID OF 24 is 5
+BOUNDARY ID OF 24 is 5, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 27
+BOUNDARY ID OF 27 is 3
+BOUNDARY ID OF 27 is 3, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 30
+BOUNDARY ID OF 30 is 3
+BOUNDARY ID OF 30 is 3, SETTING GEO TO 0
+TETRAOUT: fverts[0]: 7, fverts[1]: 12, fverts[2]: 17, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 21, svrtx[0][0-1-2] is 7 12 17
+TETRAOUT: fverts[0]: 7, fverts[1]: 10, fverts[2]: 12, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 19, svrtx[0][0-1-2] is 7 10 12
+GETTING BOUNDARY ID OF 32
+BOUNDARY ID OF 32 is 1
+BOUNDARY ID OF 32 is 1, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 34
+BOUNDARY ID OF 34 is 1
+BOUNDARY ID OF 34 is 1, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 39
+BOUNDARY ID OF 39 is 65
+BOUNDARY ID OF 39 is 65, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 40
+BOUNDARY ID OF 40 is 65
+BOUNDARY ID OF 40 is 65, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 41
+BOUNDARY ID OF 41 is 65
+BOUNDARY ID OF 41 is 65, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 45
+TETRAOUT: fverts[0]: 7, fverts[1]: 10, fverts[2]: 17, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+XXX fid 20, svrtx[0][0-1-2] is 7 17 10
+TETRAOUT: fverts[0]: 10, fverts[1]: 12, fverts[2]: 17, tverts[0]: 10, tverts[1]: 17, tverts[2]: 12, 
+MY: starting update
+BOUNDARY ID OF 45 is 65
+BOUNDARY ID OF 45 is 65, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 55
+BOUNDARY ID OF 55 is 65
+BOUNDARY ID OF 55 is 65, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 59
+BOUNDARY ID OF 59 is 65
+BOUNDARY ID OF 59 is 65, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 69
+BOUNDARY ID OF 69 is 65
+BOUNDARY ID OF 69 is 65, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 70
+BOUNDARY ID OF 70 is 21202704
+BOUNDARY ID OF 70 is 21202704, SETTING GEO TO 1
+YYY got element faces of 28 : 47 46 72 45
+YYY got element points of 28 : 17 19 11 21
+TETRAOUT: fverts[0]: 11, fverts[1]: 19, fverts[2]: 21, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 17, fverts[2]: 21, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 17, fverts[1]: 19, fverts[2]: 21, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+TETRAOUT: fverts[0]: 11, fverts[1]: 17, fverts[2]: 19, tverts[0]: 17, tverts[1]: 19, tverts[2]: 11, 
+XXX fid 45, svrtx[0][0-1-2] is 11 17 19
+GETTING BOUNDARY ID OF 1
+BOUNDARY ID OF 1 is 0
+BOUNDARY ID OF 1 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 2
+BOUNDARY ID OF 2 is 0
+BOUNDARY ID OF 2 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 3
+BOUNDARY ID OF 3 is 0
+BOUNDARY ID OF 3 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 7
+BOUNDARY ID OF 7 is 2
+BOUNDARY ID OF 7 is 2, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 8
+BOUNDARY ID OF 8 is 2
+BOUNDARY ID OF 8 is 2, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 9
+BOUNDARY ID OF 9 is 2
+BOUNDARY ID OF 9 is 2, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 13
+BOUNDARY ID OF 13 is 4
+BOUNDARY ID OF 13 is 4, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 14
+BOUNDARY ID OF 14 is 4
+BOUNDARY ID OF 14 is 4, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 15
+BOUNDARY ID OF 15 is 4
+BOUNDARY ID OF 15 is 4, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 19
+BOUNDARY ID OF 19 is 5
+BOUNDARY ID OF 19 is 5, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 20
+BOUNDARY ID OF 20 is 5
+BOUNDARY ID OF 20 is 5, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 21
+BOUNDARY ID OF 21 is 5
+BOUNDARY ID OF 21 is 5, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 25
+BOUNDARY ID OF 25 is 3
+BOUNDARY ID OF 25 is 3, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 27
+BOUNDARY ID OF 27 is 3
+BOUNDARY ID OF 27 is 3, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 32
+BOUNDARY ID OF 32 is 1
+BOUNDARY ID OF 32 is 1, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 36
+BOUNDARY ID OF 36 is 1
+BOUNDARY ID OF 36 is 1, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 39
+BOUNDARY ID OF 39 is 0
+BOUNDARY ID OF 39 is 0, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 40
+BOUNDARY ID OF 40 is 0
+BOUNDARY ID OF 40 is 0, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 48
+BOUNDARY ID OF 48 is 0
+BOUNDARY ID OF 48 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 52
+BOUNDARY ID OF 52 is 0
+BOUNDARY ID OF 52 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 63
+BOUNDARY ID OF 63 is 0
+BOUNDARY ID OF 63 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 66
+BOUNDARY ID OF 66 is 0
+BOUNDARY ID OF 66 is 0, SETTING GEO TO 0
+GETTING BOUNDARY ID OF 69
+BOUNDARY ID OF 69 is 0
+BOUNDARY ID OF 69 is 0, SETTING GEO TO 1
+GETTING BOUNDARY ID OF 70
+BOUNDARY ID OF 70 is 0
+BOUNDARY ID OF 70 is 0, SETTING GEO TO 1
+No Epilogue was run v3.0.1 Sat Mar 22 01:06:28 CET 2014 
+
+
+*** File '(Unnamed)'
+512
+stl
+geofilename
+geo
+cube
+stl
+sphere
+geo
+5
+vrts
+
+*** File '(Unnamed)'
+fids
+1880371.service2
+GetSurfaceElementsOf
+faceindex
+Get
+DomainIn
+orient
+with list
+8
+27 
+
+*** File '(Unnamed)'
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+meshing/topology.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+JOBSEND/test.o1880816
+JOBSEND/test.o1880816
+JOBSEND/test.o1880816
+
+*** These modified files were found in JOE when it aborted on Sat Mar 22 13:33:38 2014
+*** JOE was aborted by UNIX signal 15
+
+*** File 'cresurmesh5.cpp'
+#include "defns5.h"
+
+extern std::map< Barycentric, int, CompBarycentric > baryc2locvrtxmap ; 
+std::map< int, FaceInfo > facemap ;
+std::map< int, int > g2lvrtxmap ;
+bool netgenmeshupdate = true; 
+
+vector<Vertex> newvertices ; 
+list<Face>     newfaces ; 
+
+int  vrtxcount ; 
+
+int tetraor[4][3] = { {1,2,3}, {0,3,2}, {0,1,3}, {0,2,1} } ; 
+
+int **surfpoints;
+
+idx_t *eptr        ; 
+idx_t *eind        ;
+idx_t *edest       ;  
+idx_t *ndest       ;
+
+void getSurfPoints(
+nglib::Ng_Mesh *mesh) {
+  int nse = Ng_GetNSE(mesh);
+  surfpoints = new int*[nse];
+  for (int i = 0; i < nse; i++) {
+    surfpoints[i] = new int[3];
+    Ng_GetSurfaceElement(mesh, i+1, surfpoints[i]);
+    printf("SURF: %d: %d %d %d\n",i+1, surfpoints[i][0], surfpoints[i][1], surfpoints[i][2]); 
+  }
+}
+
+int findSurfElem(
+nglib::Ng_Mesh *mesh,
+int *elem)
+{
+  int nse = Ng_GetNSE(mesh);
+  printf("---- SEARCHING FOR %d %d %d\n",elem[0], elem[1], elem[2]);
+  for (int i = 0; i < nse; i++) {
+    int sum = 0;
+    for (int j = 0; j < 3; j++) {
+      printf("----elem: %dsurf(%d,%d): %d\n",elem[j], i,j, surfpoints[i][j]); 
+      if (elem[j] == surfpoints[i][j])
+        sum++;
+      else
+        continue;
+    }
+    if (sum == 3)
+      return i;
+  }
+  return 0;
+}
+
+void  cre_geom_surf_mesh(
+nglib::Ng_Mesh        *mesh1,
+nglib::Ng_Mesh        *mesh2)
+{
+   
+   int     np = Ng_GetNP(mesh1) ;
+   int     nse = Ng_GetNSE(mesh1) ;  
+   double  xyz[3] ; 
+   int     entity[4] ; 
+   
+   // printf("%d %d\n",np,nse) ; 
+   for(int i=1 ; i <= np ; i++) {
+     Ng_GetPoint (mesh1,i,xyz) ;
+     Ng_AddPoint (mesh2,xyz); 
+     // printf("%lf %lf %lf\n",xyz[0],xyz[1],xyz[2]) ; 
+   }
+   
+   for(int i=1 ; i <= nse ; i++) {
+      Ng_GetSurfaceElement(mesh1,i,entity) ;
+      Ng_AddSurfaceElement(mesh2,nglib::NG_TRIG,entity);
+      // printf("%d %d %d\n",entity[0],entity[1],entity[2]) ;
+   }
+}
+
+void cre_part_surf_mesh(
+nglib::Ng_Mesh    *mesh1,
+int         numprocs,
+int         mypid,
+nglib::Ng_Mesh    *submesh)
+{
+    int fids[4] ; 
+    int vrts[4] ;
+    int orient[4] ;
+    int p,i,k,elemno  ; 
+    FaceInfo finfo ; 
+    int ne ; 
+    
+    getSurfPoints(mesh1);
+    int nse = Ng_GetNSE(mesh1);
+  for (int i = 0; i < nse; i++) {
+    printf("SURF: %d: %d %d %d\n",i+1, surfpoints[i][0], surfpoints[i][1], surfpoints[i][2]); 
+  }
+    
+    ne = Ng_GetNE(mesh1) ;
+    for(elemno=1 ; elemno <= ne ; elemno++) { 
+      p = edest[elemno-1] ; 
+         if (netgenmeshupdate) printf("MY: starting update\n") ; 
+         My_Ng_GetElement_Faces(mesh1,elemno,fids,orient,netgenmeshupdate);
+         //Ng_GetVolumeElement(mesh1, elemno, fids);
+         printf("YYY got element faces of %d : %d %d %d %d\n", elemno, fids[0], fids[1], fids[2], fids[3]);
+         netgenmeshupdate = false; 
+         //if (netgenmeshupdate) printf("MY: finishing update\n") ; 
+         Ng_GetVolumeElement(mesh1,elemno,vrts) ;
+         printf("YYY got element points of %d : %d %d %d %d\n", elemno, vrts[0], vrts[1], vrts[2], vrts[3]);
+         for(k=0 ; k < 4 ; k++) {
+            insertetra2map(mesh1,fids[k],p,vrts) ;  
+         }
+    } 
+    partfacecreate(mesh1,submesh,numprocs,mypid) ;
+}
+
+
+void cre_part_surf_mesh(
+Ng_Mesh    *mesh1,
+int         numprocs,
+int         mypid,
+int         *indx,
+pSortedKey  keys,
+Ng_Mesh    *submesh)
+{
+    int fids[4] ; 
+    int vrts[4] ;
+    int orient[4] ;
+    int p,i,k,elemno  ; 
+    FaceInfo finfo ; 
+    
+    for(p=0 ; p < numprocs ; p++) {
+       for(i=indx[p] ; i < indx[p+1] ; i++) { 
+          elemno = keys[i].id ;
+          if (netgenmeshupdate) printf("MY: starting update\n") ; 
+          My_Ng_GetElement_Faces(mesh1,elemno,fids,orient,netgenmeshupdate);
+//        printf("
+          netgenmeshupdate = false; 
+          if (netgenmeshupdate) printf("MY: finishing update\n") ;
+          //printf("QQ:inserttetra2map: %d %d : %d %d %d %d\n",p,elemno,fids[0],fids[1],fids[2],fids[3]) ; 
+          Ng_GetVolumeElement(mesh1,elemno,vrts) ;
+          for(k=0 ; k < 4 ; k++) {
+             insertetra2map(mesh1,fids[k],p,vrts) ;  
+          }
+       } 
+        
+    } 
+    partfacecreate(mesh1,submesh,numprocs,mypid) ;
+}
+
+int tetrafaceoutward(
+int *tverts,
+int *fverts)
+{
+    int i,j,s,t  ;
+    int sumt ;
+    
+/*
+    printf("TETRAOUT: ");
+    for (i=0;i<3;i++) 
+      printf("fverts[%d]: %d, ",i,fverts[i]);
+    for (i=0;i<3;i++) 
+      printf("tverts[%d]: %d, ",i,tverts[i]);
+    printf("\n");
+*/          
+    
+    for(i=0 ; i < 2 ; i++) {
+       for(s=0 ; s < 3 ; s++) {
+         if ( tverts[i] ==  fverts[s] ) break ;
+       }
+       if (s < 3) break ; 
+    }
+    if (s == 3) {
+      printf("MY: error in outward face computation (1).\n") ;
+      exit(1) ; 
+    }
+    sumt = 0 ; 
+    for(int i=0 ; i < 4 ; i++) {
+      t = 0 ; 
+      for(int j=0 ; j < 3 ; j++) {
+        if ( tverts[tetraor[i][j]] ==  fverts[(s+j)%3] ) t++ ; 
+      } 
+      if (t == 3) sumt++ ;      
+    } 
+    if (sumt == 1) {
+      return(1) ; 
+    }
+    else if (sumt > 1) {
+      printf("MY: error in outward face computation (2).\n") ;
+      exit(1) ;       
+    }
+    return(0) ;   
+}
+
+
+void insertetra2map(
+Ng_Mesh  *mesh,
+int fid,
+int procid,
+int *tverts)
+{
+    FaceInfo finfo ;
+    std::map< int, FaceInfo >::iterator it ;
+    int fverts[3] ;
+    int outw ; 
+    
+               
+    My_Ng_GetFace_Vertices(mesh,fid,fverts);
+    it= facemap.find(fid);
+    outw = tetrafaceoutward(tverts,fverts) ; 
+    if( it == facemap.end() ) {  
+        // std::cout << "C: " << it->second << "\n";
+        finfo.outw = outw ;
+        finfo.procids[0] = procid ;
+        finfo.procids[1] = -1 ;
+        finfo.svrtx[0][0] = fverts[0] ; 
+        if (! outw) {
+          finfo.svrtx[0][1] =  fverts[1] ;
+          finfo.svrtx[0][2] =  fverts[2] ;        
+        }
+        else {
+         finfo.svrtx[0][1] =  fverts[2]  ;  
+         finfo.svrtx[0][2] =  fverts[1]  ;         
+        }
+        facemap[fid] = finfo ;
+        
+        printf("XXX fid %d, svrtx[0][0-1-2] is %d %d %d\n",
+          fid, finfo.svrtx[0][0], finfo.svrtx[0][1], finfo.svrtx[0][2]);
+    }
+    else if ( (it->second).procids[0] == procid) { //internal face 
+        facemap.erase(it) ; 
+    } 
+    else {  // partition boundary face 
+        (it->second).procids[1]  = procid ; 
+        (it->second).svrtx[1][0] = fverts[0] ; 
+        if (! outw) {
+           (it->second).svrtx[1][1] = fverts[1] ;
+           (it->second).svrtx[1][2] = fverts[2] ;
+        }
+        else {
+            (it->second).svrtx[1][1] = fverts[2] ;
+            (it->second).svrtx[1][2] = fverts[1] ;     
+        }                 
+    }
+}
+
+
+void partfacecreate(
+Ng_Mesh  *mesh1,
+Ng_Mesh  *submesh,
+int      numprocs,
+int       mypid)
+{
+    map< int, FaceInfo >::iterator itf ;
+    map< int, int > ::iterator itv ;
+    int fid ; 
+    FaceInfo finfo ;
+    Face  f ; 
+    int  lsvrtx[3] ;
+    int  pid, i ; 
+    double xyz[3] ; 
+    Barycentric barycv ;   
+    
+    vrtxcount = 0 ;
+    
+    // add vertices to mesh 
+    for (itf=facemap.begin(); itf != facemap.end(); ++itf) {
+        fid   = itf->first     ; 
+        finfo = itf->second    ;  
+        // insert face vertices into verts map 
+        for(int j=0 ; j < 2 ; j++) {    
+           pid   = finfo.procids[j] ; 
+           if ( pid == mypid ) {    
+             for(int k=0 ; k < 3 ; k++) {
+                itv = g2lvrtxmap.find(finfo.svrtx[j][k]);
+                if( itv == g2lvrtxmap.end() ) { 
+                   vrtxcount++ ; 
+                   g2lvrtxmap[finfo.svrtx[j][k]] = vrtxcount ;
+                   barycv = initbarycv(finfo.svrtx[j][k]) ;
+                   baryc2locvrtxmap[barycv] = vrtxcount ;
+                   Ng_GetPoint(mesh1,finfo.svrtx[j][k],xyz) ;
+                  
+                  Ng_AddPoint(submesh,xyz); 
+                }
+             }
+           } 
+        } 
+    }
+
+    // add surface elements to mesh 
+    for (itf=facemap.begin(); itf != facemap.end(); ++itf) {
+        fid   = itf->first  ; 
+        finfo = itf->second ;
+        for(int j=0 ; j < 2 ; j++) {
+          pid = finfo.procids[j] ;
+          if ( pid == mypid ) { 
+            f.outw = finfo.outw ;
+            printf("GETTING BOUNDARY ID OF %d, j %d pid %d\n", fid,j,pid);
+            int boundaryID = GetBoundaryID(mesh1, fid);
+            printf("BOUNDARY ID OF %d is %d\n", fid, boundaryID);
+            f.geoboundary = (finfo.procids[1] != -1) ? 1 : 0 ; 
+            //f.geoboundary = (finfo.procids[(j+1)%2] != -1) ?  1 : 0 ; 
+            f.lsvrtx[0] = g2lvrtxmap[finfo.svrtx[j][0]] ;
+            f.lsvrtx[1] = g2lvrtxmap[finfo.svrtx[j][1]] ;
+            f.lsvrtx[2] = g2lvrtxmap[finfo.svrtx[j][2]] ;
+            f.barycv[0] = initbarycv(finfo.svrtx[j][0]) ;
+            f.barycv[1] = initbarycv(finfo.svrtx[j][1]) ;
+            f.barycv[2] = initbarycv(finfo.svrtx[j][2]) ;
+            //printf("MY: addsurfel: %d : %d %d %d\n",pid,f.lsvrtx[0],f.lsvrtx[1],f.lsvrtx[2]) ;
+            if (f.geoboundary) {
+              int geo = findSurfElem(mesh1, finfo.svrtx[j]);
+              f.geoboundary = geo;
+              printf("BOUNDARY ID OF %d is %d, SETTING GEO TO %d, elmts %d %d %d, finfp.procids[0]: %d finfo.procids[1]: %d\n", fid, boundaryID, f.geoboundary,
+                finfo.svrtx[j][0], finfo.svrtx[j][1], finfo.svrtx[j][2], finfo.procids[0], finfo.procids[1]);
+            }
+            newfaces.push_back(f) ; 
+          }
+        }        
+    }
+}
+
+
+void sort3int(
+int *v)
+{
+   if (v[0] > v[1]) { v[0] ^= v[1] ; v[1] ^= v[0] ; v[0] ^= v[1] ; } 
+   if (v[1] > v[2]) { v[1] ^= v[2] ; v[2] ^= v[1] ; v[1] ^= v[2] ; }
+   if (v[0] > v[1]) { v[0] ^= v[1] ; v[1] ^= v[0] ; v[0] ^= v[1] ; }
+}
+
+void sort2int(
+int *v)
+{
+   if (v[1] > v[0]) { v[0] ^= v[1] ; v[1] ^= v[0] ; v[0] ^= v[1] ; } 
+}
+
+*** File '(Unnamed)'
+stl
+geofilename
+geo
+cube
+stl
+sphere
+geo
+5
+vrts
+elem
+
+*** File '(Unnamed)'
+SETTING
+BOUNDARY ID OF 1
+GEO 
+GEO TO
+BOUNDARY ID OF 1 is
+BOUNDARY ID OF 4 
+BOUNDARY ID OF 5 is
+8 11 16
+72
+trig
+
+*** File '(Unnamed)'
+test.o1882602
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+JOBSEND/test.o1882700
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
+cresurmesh5.cpp
