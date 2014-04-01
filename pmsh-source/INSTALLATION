@@ -1,0 +1,42 @@
+pmsh-netgen installation tutorial
+==============================
+1. Install tcl to $INSTALLDIR
+
+2. Install tk to $INSTALLDIR
+
+3. Install togl to $INSTALLDIR
+
+4. Configure netgen-5.1 with :
+	./configure --with-tk=$INSTALLDIR/lib --with-tcl=$INSTALLDIR/lib --with-tclinclude=$INSTALLDIR/include --with-tkinclude=$INSTALLDIR/include/ --with-togl=$INSTALLDIR/lib/ --prefix=$INSTALLDIR
+
+5. Edit nglib/Makefile :
+	Change the following line
+bin_PROGRAMS = ng_vol$(EXEEXT) ng_stl$(EXEEXT)
+	to
+bin_PROGRAMS = 
+
+6. Edit ng/Makefile :
+	Netgen-5.1 has a bug. You have to change the following line:
+	-L$(TK_BIN_DIR)/Togl1.7 $(TOGLLIBDIR) -lTogl $(LIBGLU) $(TK_LIB_SPEC) $(TCL_LIB_SPEC) $(MPI_LIBS) $(FFMPEG_LIBS) $(JPEGLIB_LIBS) $(PKG_LIBS) $(MKL_LIBS)
+to
+	-L$(TK_BIN_DIR)/Togl1.7 $(TK_BIN_DIR)/Togl1.7/libTogl1.7.so $(LIBGLU) $(TK_LIB_SPEC) $(TCL_LIB_SPEC) $(MPI_LIBS) $(FFMPEG_LIBS) $(JPEGLIB_LIBS) $(PKG_LIBS)
+
+7. Copy everyting from NETGEN_PATCH to netgen-5.1 source directory 
+
+7. Under netgen source directory 
+	make 
+	make install
+
+8. You can now install pmsh-netgen. First edit the following lines in pmsh-source/Makefile
+	NETGENDIR = #insert your installdir here
+	SOURCEDIR = #insert netgen sourcedir here/libsrc
+
+9. make
+
+10. In order to run pmsh-netgen, you may use the following commands:
+
+	./pmsh_netgen --help
+	mpirun -np 4 ./pmsh_netgen --stl onera-m6.stl --numcores 4 --fineness 0.025 --maxh 0.1 --outgeom
+	mpirun -np 4 ./pmsh_netgen --geo cube.geo --numcores 3 --fineness 0.025 --maxh 0.01 --outof
+
+

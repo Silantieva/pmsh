@@ -24,7 +24,7 @@ OBJS      = 				compute_keys5.o    \
 
 MAINOBJS = 				main23netgen.o
 
-PROGRAMS =				pmsh_netgen pmsh_netgen_export
+PROGRAMS =				pmsh_netgen
 
 all:        mynetgen
 
@@ -33,15 +33,9 @@ install:		$(PROGRAMS)
 
 mynetgen:  		$(OBJS) $(MAINOBJS)
 			$(CC) $(OBJS) main23netgen.o $(INCDIRS)  $(LIBDIRS) $(LIBS) -o pmsh_netgen
-			$(CC) $(OBJS) main23netgenexport.o $(INCDIRS) $(LIBDIRS) $(LIBS) -o pmsh_netgen_export
-#			$(CC) $(OBJS) main23solo.o $(INCDIRS) $(LIBDIRS) $(LIBS) -o solo_netgen
-
-#main23solo.o:       	main23solo.cpp defns5.h
-#			$(CC) -c $(INCDIRS) -DNETGEN main23solo.cpp -o main23solo.o
 
 main23netgen.o:		main23.cpp defns5.h
 			$(CC) -c $(INCDIRS) -DNETGEN main23.cpp -o main23netgen.o $(LIBS)
-			$(CC) -c $(INCDIRS) -DNETGEN -DEXPORT main23.cpp -o main23netgenexport.o $(LIBS)
 
 compute_keys5.o:	compute_keys5.cpp defns5.h
 			$(CC) -c $(INCDIRS) compute_keys5.cpp
